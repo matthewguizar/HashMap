@@ -14,6 +14,11 @@ public class KeyValues {
         hashMap.put("Spaghetti Squash", 1.99);
         hashMap.put("Parsley", 6.99);
 
+        //using for each to get
+        hashMap.forEach((key, value) -> {
+            System.out.println(key + ": " + value) ;
+        });
+
         //access value (price in this case) buy using get and inputing key(Get value based on it's key)
         hashMap.get("Califlower");
         hashMap.get("Spaghetti Squash");
